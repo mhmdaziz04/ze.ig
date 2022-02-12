@@ -31,7 +31,7 @@ def ___login___():
     print(f"{B}[{P}•{B}]{P} Masukan Cookie Instagram, Sebaiknya Jangan Gunakan Akun Yang Baru Di Buat, Kalau Anda Belum Mengetahui Cara Mendapatkan Cookie Instagram Ketik {M}[{P}Open{M}]{P}\n")
     ___cookie = input(f"{H}[{P}?{H}]{P} Cookie :{K} ")
     if ___cookie in ['open', 'Open', 'OPEN']:
-        print(f"{K}[{P}!{K}]{P} Anda Akan Diarahkan Ke Youtube, Silahkan Ikuti Cara Untuk Mendapatkan Cookie...");sleep(3);os.system('xdg-open https://youtu.be/u17ZQgSs3aY');exit()
+        print(f"{K}[{P}!{K}]{P} Anda Akan Diarahkan Ke Facebook, Silahkan Ikuti Cara Untuk Mendapatkan Cookie...");sleep(3);os.system('xdg-open www.facebook.com/Zeeee.utama');exit()
     elif ___cookie in ['', ' ']:
         exit(f"{P}[{M}!{P}]{M} Jangan Kosong")
     else:
